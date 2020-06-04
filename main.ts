@@ -199,5 +199,5 @@ info.startCountdown(60)
 info.setScore(0)
 game.onUpdateInterval(500, function () {
     cherry = sprites.create(sprites.food.smallCherries, SpriteKind.Food)
-    cherry.setPosition(randint(0, 160), randint(0, 120))
+    cherry.setPosition(Math.randomRange(0, 160), Math.randomRange(0, 120))
 })
